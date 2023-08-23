@@ -1,5 +1,5 @@
 # Stock_Alert
-By incorporating this code into AWS Lambda and setting up SNS and CloudWatch events, every day at 8 a.m. an email will send with 3 relevant news articles if Amazon's stock price difference is greater than 5%.
+By incorporating this code into AWS Lambda and setting up SNS and CloudWatch events, every day at 8 a.m. an email will send with 3 relevant news articles if Amazon's stock price difference is greater than 5%. Thanks to the help of Alpha Vantage and News API'S!
 
 Important note: I had to change my Lambda's runtime settings to Python 3.7 so that I could use "from botocore.vendored import requests" to request the API's as it does not work on the newer versions of Python. I researched and this was the simplest solution I found, but not the most efficient so I will continue to look into the subject and update code if I find a better way.
 
