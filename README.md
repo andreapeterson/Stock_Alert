@@ -6,3 +6,5 @@ Important note: I had to change my Lambda's runtime settings to Python 3.7 so th
 With this project, I learned that using AWS SNS to send emails is simply just way more efficient than using SMTPLIB in Python. It is simple, easy to set up, and has a very fast response. It is also flexible where you could easily send to multiple subscribers/emails and change them without editing your code. This project also taught me the importance of list comprehension and slicing in Python. Originally, I avoided them and had 5 lines of code for what list comprehension did in 1. List comprehension is something that doesn't come naturally to my mind but it is important in simplifying code so I will continue to study it and use it. 
 
 I used Amazon but you could put in any stock you're interested in keeping up with. Sensitive information in config.py.
+
+![stock](https://github.com/andreapeterson/Stock_Alert/assets/134665743/6cea859b-9b6c-4d8a-8e5b-0273521cfb6d)
